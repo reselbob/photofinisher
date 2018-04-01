@@ -1,0 +1,20 @@
+{
+  "name": "photofinisher_dispatcher",
+  "version": "0.0.1",
+  "description": "A demonstration microservice to dispatch a message to the TOPIC in response to a request for a photofinish process",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "test": "mocha test/test.js"
+  },
+  "author": "reselbob@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reselbob/photofinisher/issues"
+  },
+  "homepage": "https://github.com/reselbob/photofinisher#readme",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {}
+}
